@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default () => {
   return (
@@ -22,8 +23,11 @@ export default () => {
         </p>
         <p>This chatbot privacy policy was updated on: 10th March 2019</p>
         <p>
-          If you have any questions about this policy, please email{" "}
-          <strong>nicolaspettican@gmail.com</strong>.
+          If you have any questions about this policy, please{" "}
+          <NavLink color="inherit" underline="none" to={process.env.PUBLIC_URL + "/contact"}>
+            contact us
+          </NavLink>
+          .
         </p>
         <h2 class="mt-5 mb-4" id="introduction">
           Introduction

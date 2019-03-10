@@ -23,7 +23,7 @@ function ProductValues(props) {
               <img
                 className={classes.image}
                 src="/static/themes/onepirate/productValues1.svg"
-                alt="suitcase"
+                alt=""
               />
               <Typography variant="h6" className={classes.title}>
                 Easy and fun
@@ -39,7 +39,7 @@ function ProductValues(props) {
               <img
                 className={classes.image}
                 src="/static/themes/onepirate/productValues2.svg"
-                alt="graph"
+                alt=""
               />
               <Typography variant="h6" className={classes.title}>
                 The best quotes
@@ -55,7 +55,7 @@ function ProductValues(props) {
               <img
                 className={classes.image}
                 src="/static/themes/onepirate/productValues3.svg"
-                alt="clock"
+                alt=""
               />
               <Typography variant="h6" className={classes.title}>
                 Reminders and updates

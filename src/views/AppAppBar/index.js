@@ -24,6 +24,20 @@ function AppAppBar(props) {
             </Link>
           </NavLink>
           <div className={classes.right}>
+            <NavLink
+              to={process.env.PUBLIC_URL + "/contact"}
+              style={{ textDecoration: "none", color: "#f6fafa" }}
+            >
+              <Link
+                color="inherit"
+                variant="h6"
+                underline="none"
+                className={classes.rightLink}
+                href="#"
+              >
+                {"Contact"}
+              </Link>
+            </NavLink>
             <Link
               color="inherit"
               variant="h6"

@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 // scenes
 import Home from "../scenes/Home";
 import PrivacyPolicy from "../scenes/PrivacyPolicy";
+import Contact from "../scenes/Contact";
 
 // components
 import AppliedRoute from "../components/AppliedRoute";
@@ -16,6 +17,7 @@ export default (props) => {
   return (
     <Switch>
       <AppliedRoute path={process.env.PUBLIC_URL + "/"} exact component={Home} />
+      <AppliedRoute path={process.env.PUBLIC_URL + "/contact"} exact component={Contact} />
       <AppliedRoute
         path={process.env.PUBLIC_URL + "/privacy-policy"}
         exact

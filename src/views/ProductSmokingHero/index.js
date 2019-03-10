@@ -25,7 +25,7 @@ function ProductSmokingHero(props) {
         </Link>
       </Button>
       <Typography variant="subtitle1" className={classes.link}>
-        If you would like to contribute, you are very welcome!
+        If you would like to contribute, you are very welcome to!
       </Typography>
       <img src="/img/dharmabot-logo-round.png" className={classes.buoy} alt="dharmabot-logo" />
     </LayoutBody>

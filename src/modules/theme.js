@@ -89,20 +89,20 @@ const theme = {
     h6: {
       ...rawTheme.typography.h6,
       ...fontHeader,
-      fontSize: 18
+      fontSize: 20
     },
     subtitle1: {
       ...rawTheme.typography.subtitle1,
-      fontSize: 18
+      fontSize: 20
     },
     body1: {
       ...rawTheme.typography.body2,
       fontWeight: rawTheme.typography.fontWeightRegular,
-      fontSize: 16
+      fontSize: 18
     },
     body2: {
       ...rawTheme.typography.body1,
-      fontSize: 14
+      fontSize: 16
     }
   }
 };
