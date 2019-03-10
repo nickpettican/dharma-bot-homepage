@@ -2,16 +2,41 @@
   "name": "dharma-bot.com",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Nicolas Pettican",
+    "email": "nicolaspettican@gmail.com",
+    "url": "http://nicolaspettican.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickpettican/dharma-bot-homepage.git"
+  },
+  "bugs": "https://github.com/nickpettican/dharma-bot-homepage/issues",
+  "engines": {
+    "node": "10.14.1",
+    "yarn": "1.12.3"
+  },
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-https-redirect": "^1.1.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
