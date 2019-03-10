@@ -2,7 +2,7 @@
   "name": "dharma-bot.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nickpettican.github.io/dharma-bot-homepage",
+  "homepage": "https://dharma-bot.com",
   "author": {
     "name": "Nicolas Pettican",
     "email": "nicolaspettican@gmail.com",
@@ -34,7 +34,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/privacy-policy.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "gh-deploy": "gh-pages -d build",

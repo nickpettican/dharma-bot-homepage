@@ -53,7 +53,7 @@ function AppFooter(props) {
             </Typography>
             <ul className={classes.list}>
               <li className={classes.listItem}>
-                <NavLink to={"/privacy-policy"}>Privacy</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy</NavLink>
               </li>
             </ul>
           </Grid>

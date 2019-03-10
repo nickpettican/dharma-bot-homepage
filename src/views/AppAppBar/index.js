@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 import { NavLink } from "react-router-dom";
 import Link from "@material-ui/core/Link";
@@ -16,7 +15,10 @@ function AppAppBar(props) {
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} />
-          <NavLink to={"/"} style={{ textDecoration: "none", color: "#f6fafa" }}>
+          <NavLink
+            to={process.env.PUBLIC_URL + "/"}
+            style={{ textDecoration: "none", color: "#f6fafa" }}
+          >
             <Link variant="h6" underline="none" color="inherit" className={classes.title} href="/">
               {"Dharma Bot"}
             </Link>
