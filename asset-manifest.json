@@ -1,13 +1,13 @@
 {
-  "main.css": "/dharma-bot-homepage/static/css/main.d9005ba4.chunk.css",
-  "main.js": "/dharma-bot-homepage/static/js/main.90317c87.chunk.js",
-  "main.js.map": "/dharma-bot-homepage/static/js/main.90317c87.chunk.js.map",
-  "runtime~main.js": "/dharma-bot-homepage/static/js/runtime~main.4cbb853e.js",
-  "runtime~main.js.map": "/dharma-bot-homepage/static/js/runtime~main.4cbb853e.js.map",
-  "static/js/2.0adba83a.chunk.js": "/dharma-bot-homepage/static/js/2.0adba83a.chunk.js",
-  "static/js/2.0adba83a.chunk.js.map": "/dharma-bot-homepage/static/js/2.0adba83a.chunk.js.map",
-  "index.html": "/dharma-bot-homepage/index.html",
-  "precache-manifest.9b922bb429f453a7444f3573031ba5c0.js": "/dharma-bot-homepage/precache-manifest.9b922bb429f453a7444f3573031ba5c0.js",
-  "service-worker.js": "/dharma-bot-homepage/service-worker.js",
-  "static/css/main.d9005ba4.chunk.css.map": "/dharma-bot-homepage/static/css/main.d9005ba4.chunk.css.map"
+  "main.css": "/static/css/main.d9005ba4.chunk.css",
+  "main.js": "/static/js/main.64431629.chunk.js",
+  "main.js.map": "/static/js/main.64431629.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.c5541365.js",
+  "runtime~main.js.map": "/static/js/runtime~main.c5541365.js.map",
+  "static/js/2.0adba83a.chunk.js": "/static/js/2.0adba83a.chunk.js",
+  "static/js/2.0adba83a.chunk.js.map": "/static/js/2.0adba83a.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.f70f5a79e2fd7a2715a67e102600a363.js": "/precache-manifest.f70f5a79e2fd7a2715a67e102600a363.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.d9005ba4.chunk.css.map": "/static/css/main.d9005ba4.chunk.css.map"
 }
