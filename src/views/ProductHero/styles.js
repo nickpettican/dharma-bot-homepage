@@ -1,5 +1,4 @@
-export const backgroundImage =
-  "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80";
+export const backgroundImage = "/img/cover-empty.png";
 
 export const layout = (theme) => ({
   root: {
@@ -49,7 +48,7 @@ export const layout = (theme) => ({
 export default (theme) => ({
   background: {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundColor: "#7fc7d9", // Average color of the background image.
+    backgroundColor: "#96191E", // Average color of the background image.
     backgroundPosition: "center"
   },
   button: {

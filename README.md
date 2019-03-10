@@ -13,7 +13,6 @@ A bootstrapped website for Dharma Bot.
 -   [Installation](#installation)
 -   [Main features](#main-features)
 -   [Built with](#built-with)
--   [Prerequisites](#prerequisites)
 -   [Contributing](#contributing)
 -   [License](#license)
 

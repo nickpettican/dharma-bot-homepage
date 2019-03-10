@@ -5,11 +5,7 @@ import Routes from "./modules/routes";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <Routes />
-      </div>
-    );
+    return <Routes />;
   }
 }
 

@@ -4,7 +4,7 @@ import compose from "recompose/compose";
 import pure from "recompose/pure";
 import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Link from "@material-ui/core/Link";
+import { NavLink } from "react-router-dom";
 import LayoutBody from "../../components/LayoutBody";
 import Typography from "../../components/Typography";
 import TextField from "../../components/TextField";
@@ -53,7 +53,7 @@ function AppFooter(props) {
             </Typography>
             <ul className={classes.list}>
               <li className={classes.listItem}>
-                <Link href="/privacy-policy">Privacy</Link>
+                <NavLink to={"/privacy-policy"}>Privacy</NavLink>
               </li>
             </ul>
           </Grid>

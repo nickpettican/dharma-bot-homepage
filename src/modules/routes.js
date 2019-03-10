@@ -15,8 +15,12 @@ import AppliedRoute from "../components/AppliedRoute";
 export default (props) => {
   return (
     <Switch>
-      <AppliedRoute path="/" exact component={Home} />
-      <AppliedRoute path="/privacy-policy" exact component={PrivacyPolicy} />
+      <AppliedRoute path={process.env.PUBLIC_URL + "/"} exact component={Home} />
+      <AppliedRoute
+        path={process.env.PUBLIC_URL + "/privacy-policy"}
+        exact
+        component={PrivacyPolicy}
+      />
       {/* Finally, catch all unmatched routes */}
       <Route component={Home} />
     </Switch>
