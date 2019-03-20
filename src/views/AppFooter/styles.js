@@ -20,11 +20,14 @@ export default (theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: theme.palette.warning.main,
+    // backgroundColor: theme.palette.warning.main,
     marginRight: theme.spacing.unit,
     "&:hover": {
       backgroundColor: theme.palette.warning.dark
     }
+  },
+  iconImg: {
+    maxWidth: "40px"
   },
   list: {
     margin: 0,

@@ -26,9 +26,9 @@ function AppFooter(props) {
 
   return (
     <Typography component="footer" className={classes.root}>
-      <LayoutBody className={classes.layoutBody} width="large">
+      <LayoutBody className={classes.layoutBody} width="medium">
         <Grid container spacing={40}>
-          <Grid item xs={6} sm={4} md={2}>
+          <Grid item xs={12} sm={6} md={4}>
             <Grid
               container
               direction="column"
@@ -38,16 +38,16 @@ function AppFooter(props) {
             >
               <Grid item className={classes.icons}>
                 <a href="https://facebook.com/dharmabot" className={classes.icon}>
-                  <img src="/img/appFooterFacebook.png" alt="Facebook" />
+                  <img src="/img/facebook-icon.png" alt="Facebook" className={classes.iconImg} />
                 </a>
                 <a href="https://m.me/dharmabot" className={classes.icon}>
-                  <img src="/img/appFooterTwitter.png" alt="Messenger" />
+                  <img src="/img/message-icon.png" alt="Messenger" className={classes.iconImg} />
                 </a>
               </Grid>
               <Grid item>© 2018 Dharma Bot</Grid>
             </Grid>
           </Grid>
-          <Grid item xs={6} sm={4} md={2}>
+          <Grid item xs={12} sm={6} md={4}>
             <Typography variant="h6" marked="left" gutterBottom>
               Legal
             </Typography>
@@ -57,7 +57,7 @@ function AppFooter(props) {
               </li>
             </ul>
           </Grid>
-          <Grid item xs={6} sm={8} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Typography variant="h6" marked="left" gutterBottom>
               Language
             </Typography>

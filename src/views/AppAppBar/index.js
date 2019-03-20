@@ -38,15 +38,6 @@ function AppAppBar(props) {
                 {"Contact"}
               </Link>
             </NavLink>
-            <Link
-              color="inherit"
-              variant="h6"
-              underline="none"
-              className={classes.rightLink}
-              href="#"
-            >
-              {"Sign In"}
-            </Link>
           </div>
         </Toolbar>
       </AppBar>

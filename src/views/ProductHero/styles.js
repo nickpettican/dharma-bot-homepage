@@ -7,7 +7,7 @@ export const layout = (theme) => ({
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up("sm")]: {
-      height: "80vh",
+      height: "85vh",
       minHeight: 500,
       maxHeight: 1300
     }
@@ -17,7 +17,10 @@ export const layout = (theme) => ({
     marginBottom: theme.spacing.unit * 14,
     display: "flex",
     flexDirection: "column",
-    alignItems: "center"
+    alignItems: "center",
+    [theme.breakpoints.up("sm")]: {
+      marginTop: theme.spacing.unit * 8
+    }
   },
   backdrop: {
     position: "absolute",
@@ -52,16 +55,24 @@ export default (theme) => ({
     backgroundPosition: "center"
   },
   button: {
-    minWidth: 200
+    minWidth: 200,
+    fontSize: "1.4em"
   },
   h5: {
+    fontSize: "1.4em",
     marginBottom: theme.spacing.unit * 4,
     marginTop: theme.spacing.unit * 4,
     [theme.breakpoints.up("sm")]: {
-      marginTop: theme.spacing.unit * 10
+      marginTop: theme.spacing.unit * 6
     }
   },
+  subHeading: {
+    maxWidth: "768px"
+  },
   more: {
-    marginTop: theme.spacing.unit * 2
+    marginTop: theme.spacing.unit * 4,
+    [theme.breakpoints.up("sm")]: {
+      marginTop: theme.spacing.unit * 6
+    }
   }
 });
