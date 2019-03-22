@@ -25,6 +25,32 @@
     <title>Dharma Bot - The Interactive Sakya Calendar</title>
   </head>
   <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v3.2'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="130457504438917"
+      theme_color="#96191E"
+      logged_in_greeting="Hi! I can remind you of auspicious dates and send you quotes. Want to try?"
+      logged_out_greeting="Hi! I can remind you of auspicious dates and send you quotes. Want to try?">
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
